@@ -14,7 +14,18 @@ void sort(int arr[], int n)
         }
     }
 }
+void printArray(int arr[],int n){
+    for (int i = 0; i < n; i++)
+    {
+        printf("%d",arr[i]);
+    }
+    
+}
 void main()
 {
-
+    int arr[] = {4,1,3,2,5};
+    int size = 5;
+    printf("The sorted array is:\n");
+    sort(arr,size);
+    
 }
