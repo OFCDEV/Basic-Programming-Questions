@@ -16,5 +16,5 @@ int armStrong(int num){
 }
 void main(){
     // int num=153;
-    armStrong(152);
+    armStrong(153);
 }
